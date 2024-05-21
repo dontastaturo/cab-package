@@ -1,5 +1,5 @@
 {
-    "name": "mholecek/cab-package",
+    "name": "dontastaturo/cab-package",
     "description": "PHP CAB packages creator",
     "keywords": [
         "CAB",
@@ -15,10 +15,10 @@
         }
     ],
     "require": {
-        "php": "^7.2.0"
+        "php": "^7.2.0|^8"
     },
     "suggest": {
-	"ext-zlib": "to use compression"
+        "ext-zlib": "to use compression"
     },
     "autoload": {
         "psr-4": {
